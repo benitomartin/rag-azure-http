@@ -6,7 +6,7 @@
 
 This repository contains a full Q&A pipeline using LangChain framework, Qdrant as vector database and Azure Function with HttpTrigger. The data used are research papers that can be loaded into the vector database, and the AWS Lambda Function processes the request using the retrieval and generation logic. Therefore it can use any other research paper from Arxiv.
 
-The main steps taken to build the RAG pipeline can be summarize as follows:
+The main steps taken to build the RAG pipeline can be summarized as follows:
 
 * **Data Ingestion**: load data from https://arxiv.org
 
@@ -83,14 +83,14 @@ The Python version used for this project is Python 3.10. You can follow along th
   ```bash
    curl -X POST "http://localhost:7071/api/req" \
       -H "Content-Type: application/json" \
-      -d '{"query": "What is the attention mechanism?"}'
+      -d '{"query": "positional encoding"}'
    ```
 
 <p align="center">
   <img width="976" alt="aws" src="https://github.com/user-attachments/assets/f6c6bdee-327b-4397-9c18-69b2fa86e000">
 </p>
 
-6. Create a publish the App: Make sure the `.env` file is complete and run the `deploy.sh` script  
+6. Create and publish the App: Make sure the `.env` file is complete and run the `deploy.sh` script  
 
    ```bash
    chmod +x deploy.sh
