@@ -1,10 +1,10 @@
 # RAG AZURE HTTP QDRANT 🧑‍💻
 
 <p align="center">
-  <img width="976" alt="aws" src="https://github.com/user-attachments/assets/9b4bfa1e-07c6-4f4d-b129-d226ad8201d0">
+  <img width="976" alt="azure" src="https://github.com/user-attachments/assets/9b4bfa1e-07c6-4f4d-b129-d226ad8201d0">
 </p>
 
-This repository contains a full Q&A pipeline using LangChain framework, Qdrant as vector database and Azure Function with HttpTrigger. The data used are research papers that can be loaded into the vector database, and the AWS Lambda Function processes the request using the retrieval and generation logic. Therefore it can use any other research paper from Arxiv.
+This repository contains a full Q&A pipeline using LangChain framework, Qdrant as vector database and Azure Function with HttpTrigger. The data used are research papers that can be loaded into the vector database, and the Azure Function processes the request using the retrieval and generation logic. Therefore it can use any other research paper from Arxiv.
 
 The main steps taken to build the RAG pipeline can be summarized as follows:
 
@@ -72,7 +72,7 @@ The Python version used for this project is Python 3.10. You can follow along th
     make install
     ```
 
-4. Create **Azure Account** and install **Azure CLI** and **Functions Core Tools**. Make sure to configure the appropriate credentials to interact with AWS services.
+4. Create **Azure Account** and install **Azure CLI** and **Functions Core Tools**.
 
 5. Test the function locally
 
@@ -87,7 +87,7 @@ The Python version used for this project is Python 3.10. You can follow along th
    ```
 
 <p align="center">
-  <img width="976" alt="aws" src="https://github.com/user-attachments/assets/f6c6bdee-327b-4397-9c18-69b2fa86e000">
+  <img width="976" alt="azure" src="https://github.com/user-attachments/assets/f6c6bdee-327b-4397-9c18-69b2fa86e000">
 </p>
 
 6. Create and publish the App: Make sure the `.env` file is complete and run the `deploy.sh` script  
@@ -104,5 +104,5 @@ The Python version used for this project is Python 3.10. You can follow along th
    ```
 
 <p align="center">
-  <img width="976" alt="aws" src="https://github.com/user-attachments/assets/096c9cbd-b51a-4e5c-b681-207b3c8657fe">
+  <img width="976" alt="azure" src="https://github.com/user-attachments/assets/096c9cbd-b51a-4e5c-b681-207b3c8657fe">
 </p>
