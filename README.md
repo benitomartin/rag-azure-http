@@ -1,7 +1,7 @@
 # RAG AZURE HTTP QDRANT 🧑‍💻
 
 <p align="center">
-  <img width="976" alt="azure" src="https://github.com/user-attachments/assets/43740966-406e-468d-97a5-482e9bb52bc8">
+  <img width="976" alt="azure" src="https://github.com/user-attachments/assets/cbe4b7d9-e940-4e84-bbac-834fd17acbf8">
 </p>
 
 This repository contains a full Q&A pipeline using LangChain framework, Qdrant as vector database and Azure Function with HttpTrigger. The data used are research papers that can be loaded into the vector database, and the Azure Function processes the request using the retrieval and generation logic. Therefore it can use any other research paper from Arxiv.
